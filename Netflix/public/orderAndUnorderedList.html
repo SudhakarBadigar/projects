@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order And Unordered List</title>
+
+    <style>
+        .options{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+
+        }
+        .textOL{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: medium;
+            font-style: normal;
+            
+        }
+        .unl1{
+            font-style: italic;
+            font-size: 10px;
+        }
+        .unl{
+            columns: 2;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+
+ <ol>
+    <li>sun</li>
+    <li>moon</li>
+    <li>mars</li>
+    <li>mercury</li>
+ </ol>
+
+ <ul >
+    <li>makara</li>
+    <li>kumba</li>
+    <li>vricschika</li>
+    <li>kanya</li>
+    <li>simha</li>
+ </ul>
+
+ <ol type="1" class="textOL">
+    <li>the ___________ elements dont have tags</li>
+        <ol type="a" class="options">
+            <li>Normal Elements</li>
+            <li>Raw Text Elements</li>
+            <li>void Elements</li>
+            <li>Rc Data Elements</li>
+
+        </ol>
+
+ </ol>
+
+ <ul type="square" class="unl1">
+    <li>Java is a _________________language
+        <ul type="circle" class="unl">
+            <li>oop language</li>
+            <li>Functional Language</li>
+            <li>Presentation Language</li>
+            <li>Markup Language</li>
+        </ul>
+    </li>
+ </ul>
+
+    
+</body>
+</html>
