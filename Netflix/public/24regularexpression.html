@@ -21,7 +21,13 @@
         or: <input type="text" name="or" placeholder="rgb" pattern="red|green|blue"> <br><br>
         w small : <input type="text" name="small-w" pattern="\w"><br><br>
         W caps: <input type="text" name="caps" pattern="\W"><br><br>
-        <button>submit</button>
+        carrat: <input type="text" name="carat" pattern="[^a-s]"><br><br>
+        expression: <input type="text" name="expression" pattern="\^[a-z] [0-9]\$"> <br><br>
+        quantifiers: <input type="text" name="quantifiers" pattern="\D{2}\d{3}"> <br><br>
+        {n,m}:   <input type="text" name="nm" pattern="\w{2,4}"> <br><br>
+        uppercase: <input type="text" name="upper" pattern="[A-Z]{4,10}"><br><br>
+        PHONE NO: <input type="text" name="phNO" pattern="\+91[0-9]{10,10} "> <br><br>
+        <button>submit</button> 
     </form>
     
 </body>
